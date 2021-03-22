@@ -2,15 +2,15 @@
   <div class="sideNavBar">
         <div class="sideNavBarA">
         <div class="d">
-            <div class="e"><button class="navbutton"><a href="Home.vue"><i class="fas fa-home" />Home</a></button></div>
+            <div class="e"><button class="navbutton"><a href="Home.vue"><i class="fas fa-home" />  Home</a></button></div>
         </div>
         <br>
                 <div class="d">
-            <div class="e"><button class="navbutton"><a href="About.vue"><i class="fas fa-hands" />About</a></button></div>
+            <div class="e"><button class="navbutton"><a href="About.vue"><i class="fas fa-hands" />  About</a></button></div>
         </div>
         <br>
                 <div class="d">
-            <div class="e"><button class="navbutton"><a href="Contact.vue"><i class="fas fa-phone" />Contact</a></button></div>
+            <div class="e"><button class="navbutton"><a href="Contact.vue"><i class="fas fa-phone" />  Contact</a></button></div>
         </div>
         <br>
             
