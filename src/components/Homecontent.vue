@@ -1,17 +1,31 @@
 <template>
     <div class="HomeContent">
+        
         <div class="itembox">
             <ul>
-                <li class="item"><img src="..\assets\logo-cow.png" class="itemimage"></li>
-                <li class="item"><img src="..\assets\logo-cow.png" class="itemimage"></li>
-                <li class="item"><img src="..\assets\logo-cow.png" class="itemimage"></li>
+                <li class="item"><img src="..\assets\logo-cow.png" class="itemimage">U kunt de overzichten weer inzien</li>
+                <li class="item"><img src="..\assets\logo-cow.png" class="itemimage">Nieuwsupdate: de storing is verholpen</li>
+                <li class="item"><img src="..\assets\logo-cow.png" class="itemimage">Er is een storing, wij werken er aan</li>
             </ul>
+            
+
         </div>
+        
     </div>
 </template>
 
 <script>
-
+// var homecontent = new vue({
+// el:'#homecontent-items', 
+// data: {
+//     header: "Uw Cowmanager-app",
+//     items: [
+//         '', 
+//         '',
+//         ''
+//     ]
+// }
+// });
 
 export default {
     name: 'HomeContent'

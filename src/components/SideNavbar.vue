@@ -2,33 +2,30 @@
   <div class="sideNavBar">
         <div class="sideNavBarA">
             <div>
-                <div><button class="navbutton"><a href="Home.vue"><i class="fas fa-home" />  Home</a></button></div>
+                <div><button class="navbutton"><a href="Home.vue"><i class="fas fa-home" />&nbsp;Home</a></button></div>
             </div>
             <br>
             <div>
-                <div><button class="navbutton"><a href="About.vue"><i class="fas fa-hands" />  About</a></button></div>
+                <div><button class="navbutton"><a href="About.vue"><i class="fas fa-info-circle" />&nbsp;About</a></button></div>
             </div>
             <br>
             <div>
-                <div><button class="navbutton"><a href="Contact.vue"><i class="fas fa-phone" />  Contact</a></button></div>
+                <div><button class="navbutton"><a href="Contact.vue"><i class="fas fa-phone" />&nbsp;Contact</a></button></div>
             </div>   
         </div>
 
         <div class="sideNavBarB">
-            <div class="b">
-                <a href="www.google.com">
-                    <font-awesome-icon icon="google" />
-                </a>
+            <div>
+                <div><a href="www.google.com"><i class="fab fa-google"></i></a></div>
+            </div> 
+            
+            <div>
+                <div><a href="www.facebook.com"><i class="fab fa-facebook"></i></a></div>
             </div>
-            <div class="b">
-                <a href="www.facebook.com">
-                    <font-awesome-icon icon="facebook" />
-                </a>
-            </div>
-            <div class="b">
-                <a href="www.twitter.com">
-                    <font-awesome-icon icon="twitter" />
-                </a>
+
+                
+            <div>
+                <div><a href="www.twitter.com"><i class="fab fa-twitter"></i></a></div>
             </div>
         </div>
  </div>
@@ -42,15 +39,15 @@ export default {
 
 <style>
 .sideNavBar {
-    width: 500px;
-    height: 800px;
-    background-color: pink;
+    width: 300px;
+    height: 900px;
+    background-color: black;
     color: white;
     margin-top: 10px;
     border-radius: 25px;
     box-shadow: 2px 3px 3px 3px red;
     text-align: left;
-    padding: 50px;
+    padding: 40px;
     position: sticky;
 }
 .sideNavBarA {
@@ -74,6 +71,15 @@ export default {
     background-color: transparent;
     box-shadow: none;
     width: 200px;
+    height: 75px;
+    text-align: left;
+}
+navbutton:active {
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    box-shadow: none;
+    /* width: 200px; */
     text-align: left;
 }
 a:link {
@@ -82,7 +88,8 @@ a:link {
   padding: 15px 25px;
   text-decoration: none;
 }
-a:active a:hover{
+
+button:active button:hover{
   background-color: #f44336;
   color: white;
   padding: 15px 25px;

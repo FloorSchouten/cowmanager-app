@@ -5,12 +5,14 @@
 </template>
 
 <script>
+import About from './components/About.vue'
 import Home from './components/Home.vue'
+import Contact from './components/Contact.vue'
 
 export default {
   name: 'App',
   components: {
-    Home
+    Home, About, Contact
   }
 }
 </script>

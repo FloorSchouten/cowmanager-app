@@ -1,17 +1,12 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import "bootstrap"
+// import BootstrapVue from 'bootstrap-vue'
 import {library} from "@fortawesome/fontawesome-svg-core"
 import '@fortawesome/fontawesome-free/css/all.css'
 import '@fortawesome/fontawesome-free/js/all.js'
-
 import "bootstrap/dist/css/bootstrap.css"
 import "animate.css/animate.css"
-import {
-    faHome,
-    faHands,
-    faPhone
-} from "@fortawesome/free-solid-svg-icons"
+import {faHome, faHands,faPhone} from '@fortawesome/free-solid-svg-icons'
 import { faFacebook, faTwitter, faGoogle} from '@fortawesome/free-brands-svg-icons'
 library.add(faHome, faPhone, faHands)
 library.add(faFacebook, faTwitter, faGoogle)
