@@ -37,7 +37,7 @@ export default {
   display: flex;
   width: 30px;
   height: 30px; 
-  margin-top: -12px;
+  margin-top: -1px;
   margin-left: 5px;
 }
 .top-Navbar {
