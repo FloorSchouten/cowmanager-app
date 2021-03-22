@@ -5,28 +5,15 @@
             <div class="e"><button class="navbutton"><a href="Home.vue"><i class="fas fa-home" />Home</a></button></div>
         </div>
         <br>
-            <div class="d">
-            <font-awesome-icon :icon="['home']" class="icon"/>
-            <button class="navbutton"><a href="Home.vue">Home</a></button>
-            </div>
-
+                <div class="d">
+            <div class="e"><button class="navbutton"><a href="About.vue"><i class="fas fa-hands" />About</a></button></div>
+        </div>
+        <br>
+                <div class="d">
+            <div class="e"><button class="navbutton"><a href="Contact.vue"><i class="fas fa-phone" />Contact</a></button></div>
+        </div>
+        <br>
             
-            <!-- <div class="Navcontainer" >
-                <div class="b"><font-awesome-icon :icon="['home']" class="b" /></div>
-                <div class="b"><button class="navbutton"><a href="Home.vue">Home</a></button></div>
-            </div> -->
-            <div class="Navcontainer" href="/About.vue">
-                <div class="a">
-                    <font-awesome-icon icon="hands" />
-                    <button class="navbutton">
-                        <a href="About.vue">About</a>
-                    </button>
-                </div>
-            </div>
-            <div class="Navcontainer" href="/Contact.vue">
-                <div class="a"><font-awesome-icon icon="phone" /><a href="Contact.vue"><button class="navbutton">
-                Contact</button></a></div>
-            </div>
         </div>
 
         <div class="sideNavBarB">
@@ -88,7 +75,7 @@ export default {
     flex-direction: row;
     background-color: transparent;
     box-shadow: none;
-    width: 150px;
+    width: 200px;
     text-align: left;
 }
 a:link {
