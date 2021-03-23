@@ -1,17 +1,17 @@
 [
     {
         "id": 1,
-        "title": "Article 1",
+        "title": "Our product",
         "body": "body of text"
     },
     {
         "id": 2,
-        "title": "Article 2",
+        "title": "Our people",
         "body": "body of text"
     },
     {
         "id": 3,
-        "title": "Article 3",
+        "title": "Our clients",
         "body": "body of text"
     }
 ]
