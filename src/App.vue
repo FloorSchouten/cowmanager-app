@@ -35,7 +35,7 @@ export default {
 .Contentbox {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 1040px;
     height: auto;
     background-color: #eeebdd;
     margin: 10px 100px;

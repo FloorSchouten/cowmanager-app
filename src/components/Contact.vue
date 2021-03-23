@@ -1,8 +1,9 @@
 <template>
     <div>
         <div class="Contentbox">
-        <input v-model="message" placeholder="Name">
-        <p>Message is: {{ message }}</p>
+            <p>Your message: {{ message }}</p>&nbsp;
+            <input v-model="message" placeholder="Name">
+        
             
         </div>
         </div>
