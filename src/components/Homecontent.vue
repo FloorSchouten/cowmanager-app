@@ -1,5 +1,5 @@
 <template>
-    <div class="Homecontent">
+    <div class="Contentbox">
         <div class="itembox">
             <ul>
                 <li class="item">
@@ -17,7 +17,7 @@
                         <h4>Cowmanager update</h4>
                     </div>
                     <div class="textcontent">
-                        <p>The glitch has been corrected</p>
+                        <p>We have fixed the problem!</p>
                     </div>
                 </li>
                 <li class="item">
@@ -26,7 +26,7 @@
                     <h4>Cowmanager update</h4>
                     </div>
                     <div class="textcontent">
-                        <p>There is a glitch in our software. Please stay tuned</p>
+                        <p>We have encountered a glitch in our software. You can't receive the information you need. We're working on it. Please stay tuned</p>
                     </div>
                 </li>
             </ul>
@@ -42,8 +42,8 @@ export default {
 }
 </script>
 
-<style>
-.Homecontent {
+<style scoped>
+/* .Homecontent {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -54,7 +54,7 @@ export default {
     padding-left: 50px;
     box-shadow: 2px 3px 3px 3px red;
     border-radius: 25px; 
-}
+} */
 .item {
     width: 700px;
     height: auto;
