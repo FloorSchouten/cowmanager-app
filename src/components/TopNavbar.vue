@@ -24,7 +24,7 @@ export default {
   display: flex;
   width: 200px;
   height: 200px;
-  margin-left: -15px;
+  margin-left: -10px;
   margin-top: -5px;
 }
 .logout {
@@ -37,7 +37,7 @@ export default {
   display: flex;
   width: 30px;
   height: 30px; 
-  margin-top: -1px;
+  margin-top: -15px;
   margin-left: 5px;
 }
 .top-Navbar {
@@ -47,7 +47,7 @@ export default {
   height: 170px;
   width: auto;
   margin-bottom: 25px;
-  position: sticky;
+  
 }
 
 </style>
