@@ -19,8 +19,8 @@
                         </div>
 
                     </div>
-                                            <div class="contentbox3">
-                            <img src="..\assets\logo-cow.png">
+                        <div class="contentbox3">
+                            <img src="..\assets\logo-cow.png" class="imageAbout">
                         </div>
             </div>
         </div>
@@ -39,10 +39,17 @@ export default{
 </script>
 
 <style scoped>
+.articleAbout {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: left;
+}
 .contentbox {
     display: flex;
     flex-direction: column;
-    width: 900px;
+    width: 1030px;
     height: auto;
     background-color: #eeebdd;
     margin-left: 400px;
@@ -53,7 +60,7 @@ export default{
 }
 .contentbox2{
     
-    width: 400px;
+    width: 450px;
     height: auto;
     margin: 30px;
     /* flex-direction: column;
@@ -81,27 +88,28 @@ export default{
     display: flex;
     flex-direction: row;
     width: 400px;
-    height: auto;
+    height: 180px;
 }
 .headerAbout {
     margin-top: 30px;
     padding-right: 400px;
     font-size: xx-large;
 }
+.imageAbout {
+    width: 450px;
+    height: 350px;
+    margin-left: -20px;
+    margin-top: 50px;
+}
 .iconAbout{
     display: flex;
     font-size: 70px;
-    background-color: red;
+    background-color: rgb(238, 105, 81);
     width: 120px;
     height: 120px;
     border-radius: 50%;
     padding: 15px;
 }
 
-.articleAbout {
-    display: flex;
-    flex-direction: column;
-    margin-left: 20px;
-    margin-top: 20px;
-}
+
 </style>

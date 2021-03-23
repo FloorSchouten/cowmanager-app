@@ -2,16 +2,16 @@
     {
         "id": 1,
         "title": "Our product",
-        "body": "body of text"
+        "body": "Our product is innovative, extremely useful and easy to use"
     },
     {
         "id": 2,
         "title": "Our people",
-        "body": "body of text"
+        "body": "We accept only the best"
     },
     {
         "id": 3,
         "title": "Our clients",
-        "body": "body of text"
+        "body": "We can be short. Every farmer should use Cowmanager"
     }
 ]
