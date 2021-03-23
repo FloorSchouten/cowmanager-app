@@ -1,6 +1,6 @@
 <template>
         <div class="contentbox">
-                <div class="headerAbout">
+                <div class="headerAbout" id="#About">
                     <h1>About us</h1>
                 </div>
                 <div class="flex">
@@ -39,6 +39,7 @@ export default{
 </script>
 
 <style scoped>
+/* <i class="fas fa-hat-cowboy-side"> */
 .articleAbout {
     display: flex;
     flex-direction: column;
@@ -70,6 +71,7 @@ export default{
 .contentbox3{
     width: 400px;
     height: 400px;
+    padding-left: 100px;
 }
 .contentbox4 {
     /* display: flex;
@@ -91,9 +93,11 @@ export default{
     height: 180px;
 }
 .headerAbout {
-    margin-top: 30px;
-    padding-right: 400px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-right: 480px;
     font-size: xx-large;
+    
 }
 .imageAbout {
     width: 450px;

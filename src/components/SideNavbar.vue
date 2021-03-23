@@ -2,15 +2,15 @@
   <div class="sideNavBar">
         <div class="sideNavBarA">
             <div>
-                <div><button class="navbutton"><a href="Home.vue"><i class="fas fa-home" />&nbsp;Home</a></button></div>
+                <div><button class="navbutton"><a href="./Home.vue"><i class="fas fa-home" />&nbsp;Home</a></button></div>
             </div>
             <br>
             <div>
-                <div><button class="navbutton"><a href="About.vue"><i class="fas fa-info-circle" />&nbsp;About</a></button></div>
+                <div><button class="navbutton"><a href="./About.vue"><i class="fas fa-info-circle" />&nbsp;About</a></button></div>
             </div>
             <br>
             <div>
-                <div><button class="navbutton"><a href="Contact.vue"><i class="fas fa-phone" />&nbsp;Contact</a></button></div>
+                <div><button class="navbutton"><a href="./Contact.vue"><i class="fas fa-phone" />&nbsp;Contact</a></button></div>
             </div>   
         </div>
 
@@ -32,8 +32,13 @@
 </template>
 
 <script>
+
+
+
 export default {
     name: 'SideNavbar'
+
+
 }
 </script>
 

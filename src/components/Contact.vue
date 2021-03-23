@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="Contentbox">
-        <input v-model="message" placeholder="edit me">
+        <input v-model="message" placeholder="Name">
         <p>Message is: {{ message }}</p>
             
         </div>

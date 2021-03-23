@@ -10,6 +10,8 @@ import {faHome, faHands,faPhone} from '@fortawesome/free-solid-svg-icons'
 import { faFacebook, faTwitter, faGoogle} from '@fortawesome/free-brands-svg-icons'
 library.add(faHome, faPhone, faHands)
 library.add(faFacebook, faTwitter, faGoogle)
+// import Router from 'vue-router'
+
 
 // import  {FontAwesomeIcon } from "@fortawesome/vue-fontawesome"
 // Vue.component('font-awesome-icon', FontAwesomeIcon);
