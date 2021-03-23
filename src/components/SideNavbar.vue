@@ -48,7 +48,7 @@ export default {
     box-shadow: 2px 3px 3px 3px red;
     text-align: left;
     padding: 40px;
-    position: sticky;
+    
 }
 .sideNavBarA {
     display: flex;
@@ -56,6 +56,7 @@ export default {
     /* justify-content: start; */
     width: 300px;
     height: 700px;
+    
 }
 .navcontainer{
     display: flex;
@@ -64,6 +65,7 @@ export default {
     height: 50px;
     margin: 10px;
     padding: 20px;
+    
 }
 .navbutton {
     display: flex;
@@ -73,13 +75,15 @@ export default {
     width: 200px;
     height: 75px;
     text-align: left;
+    font-size: larger;
+    border-radius: 25px;
+
 }
 navbutton:active {
     display: flex;
     flex-direction: row;
     background-color: red;
     box-shadow: none;
-    /* width: 200px; */
     text-align: left;
 }
 a:link {
@@ -124,5 +128,6 @@ a:visited {
     justify-content: baseline;
     width: 100px;
     height: 100px;
+    font-size:xx-large
 }
 </style>
