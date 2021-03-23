@@ -1,21 +1,21 @@
 # cowmanager-app
 
-## Project setup
+## First time users!
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### Run in the browser by executing the following in the terminal:
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
+### Getting ready for production...
 ```
 yarn build
 ```
 
-### Lints and fixes files
+### Find your mistakes!
 ```
 yarn lint
 ```

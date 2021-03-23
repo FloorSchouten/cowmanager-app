@@ -1,6 +1,8 @@
 <template>
     <div>
-        kl
+        <div> 
+            <h1>{{title}}</h1>
+            </div>
     </div>
 </template>
 

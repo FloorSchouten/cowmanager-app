@@ -8,7 +8,7 @@
                         <h4>Cowmanager update</h4>
                     </div>
                     <div class="textcontent">
-                        <p>U kunt de overzichten weer inzien</p>
+                        <p>You can access your information again</p>
                     </div>
                 </li>
                 <li class="item">
@@ -17,7 +17,7 @@
                         <h4>Cowmanager update</h4>
                     </div>
                     <div class="textcontent">
-                        <p>De storing is verholpen</p>
+                        <p>The glitch has been corrected</p>
                     </div>
                 </li>
                 <li class="item">
@@ -26,7 +26,7 @@
                     <h4>Cowmanager update</h4>
                     </div>
                     <div class="textcontent">
-                        <p>Er is een storing, wij werken hard aan een oplossing. Wacht u even af</p>
+                        <p>There is a glitch in our software. Please stay tuned</p>
                     </div>
                 </li>
             </ul>
