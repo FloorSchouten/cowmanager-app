@@ -26,7 +26,7 @@
                     <h4>Cowmanager update</h4>
                     </div>
                     <div class="textcontent">
-                        <p>We have encountered a glitch in our software. You can't receive the information you need. We're working on it. Please stay tuned</p>
+                        <p>We have encountered a problem with our software so you may not be able to access your data. We're working on it</p>
                     </div>
                 </li>
             </ul>
@@ -43,20 +43,9 @@ export default {
 </script>
 
 <style scoped>
-/* .Homecontent {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 1000px;
-    background-color: #eeebdd;
-    margin: 10px 100px;
-    padding-left: 50px;
-    padding-left: 50px;
-    box-shadow: 2px 3px 3px 3px red;
-    border-radius: 25px; 
-} */
+
 .item {
-    width: 700px;
+    width: 65%;
     height: auto;
     background-color: white;
     border-radius: 25px;

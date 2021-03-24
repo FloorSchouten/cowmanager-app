@@ -1,21 +1,35 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-// import BootstrapVue from 'bootstrap-vue'
-import {library} from "@fortawesome/fontawesome-svg-core"
+import { library } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-free/css/all.css'
 import '@fortawesome/fontawesome-free/js/all.js'
-import "bootstrap/dist/css/bootstrap.css"
-import "animate.css/animate.css"
-import {faHome, faHands,faPhone} from '@fortawesome/free-solid-svg-icons'
+// import BootstrapVue from 'bootstrap-vue'
+import 'bootstrap/dist/css/bootstrap.css'
+import 'animate.css/animate.css'
+import { faHome, faHands,faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faFacebook, faTwitter, faGoogle} from '@fortawesome/free-brands-svg-icons'
+import router from './assets/js/routes'
+import VueRouter from 'vue-router';
+
 library.add(faHome, faPhone, faHands)
 library.add(faFacebook, faTwitter, faGoogle)
-// import Router from 'vue-router'
 
-
-// import  {FontAwesomeIcon } from "@fortawesome/vue-fontawesome"
-// Vue.component('font-awesome-icon', FontAwesomeIcon);
-
+VueRouter.use(VueRouter);
+const router = new VueRouter({
+    routes: [
+        {
+            path: "/Home", 
+            component: Home
+        },
+        {
+            path: "/About", 
+            component: About  
+        },
+        {
+            path: "/Contact", 
+            component: Contact
+    ]
+})
 export const eventBus = createApp(App)
 
-createApp(App).mount('#app')
+createApp(App).use(router).mount('#app')

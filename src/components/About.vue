@@ -1,25 +1,26 @@
 <template>
-    <div>
+    <div class="about-right-container">
         <AboutA />
     </div>
 </template>
 
 <script>
-import AboutA from './AboutA.vue'
-
+import AboutA from './AboutA.vue';
 
 export default {
     name: 'About',
     components: {
-    AboutA,
-
-}
+    AboutA
+    }
 }
 </script>
+
 <style scoped>
-.home-container {
+.about-right-container {
   display: flex;
   flex-direction: row;
+  margin-top: -900px;
+  margin-left: -20px;
   
 }
 

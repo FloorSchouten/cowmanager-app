@@ -2,7 +2,7 @@
     <li>
     {{ submit.text }}
     <button @click="$emit('remove', submit.id)">
-      X
+      Submit
     </button>
   </li>
 </template>

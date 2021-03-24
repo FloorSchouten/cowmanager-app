@@ -45,22 +45,22 @@ export default {
 <style>
 .sideNavBar {
     width: 300px;
-    height: 1000px;
+    height: 940px;
     background-color: black;
     color: white;
     margin-top: 10px;
+    margin-bottom: -10px;
     border-radius: 25px;
     box-shadow: 2px 3px 3px 3px red;
     text-align: left;
     padding: 40px;
-    
 }
 .sideNavBarA {
     display: flex;
     flex-direction: column;
-    /* justify-content: start; */
-    width: 300px;
-    height: 700px;
+    width: 280px;
+    height: 740px;
+    margin-top: 20px;
     
 }
 .navcontainer{

@@ -1,18 +1,25 @@
 <template>
-    <Home />
-    <About />
-    <Contact />
+  <TopNavbar /><SideNavbar/>
+  <Home />
+  <SideNavbar/><About />
+  <SideNavbar /><Contact />
 </template>
 
 <script>
-import About from './components/About.vue'
+import TopNavbar from './components/TopNavbar'
+import SideNavbar from './components/SideNavbar.vue'
 import Home from './components/Home.vue'
+import About from './components/About.vue'
 import Contact from './components/Contact.vue'
 
 export default {
   name: 'App',
   components: {
-    Home, About, Contact
+    TopNavbar, 
+    SideNavbar,
+    Home, 
+    About, 
+    Contact
   }
 }
 </script>

@@ -1,33 +1,34 @@
 <template>
-        <div class="contentbox">
-                <div class="headerAbout" id="#About">
-                    <h1>About us</h1>
-                </div>
-                <div class="flex">
-                    <div class="contentbox4">
-                        <div v-for="article in articlesList" v-bind:key="article.id" class="contentbox2">
-                            <div class="headerbox">  
-                                <div class="iconAbout">
-                                    <i class="fas fa-hat-cowboy-side"></i>
-                                </div>
-                                <div class="articleAbout">
-                                    <ChildComponent v-model="title" />
-                                    <h3>{{ article.title }}</h3>
-                                    <p>{{ article.body }}</p>
-                                </div>
+    <div class="contentbox">
+        <SideNavBar />
+            <div class="headerAbout" id="#About">
+                <h1>About us</h1>
+            </div>
+            <div class="flex">
+                <div class="contentbox4">
+                   <div v-for="article in articlesList" v-bind:key="article.id" class="contentbox2">
+                      <div class="headerbox">  
+                         <div class="iconAbout">
+                             <i class="fas fa-tractor"></i>
+                         </div>
+                         <div class="articleAbout">
+                                <ChildComponent v-model="title" />
+                                <h3>{{ article.title }}</h3>
+                                <p>{{ article.body }}</p>
                             </div>
                         </div>
-
                     </div>
-                        <div class="contentbox3">
-                            <img src="..\assets\logo-cow.png" class="imageAbout">
-                        </div>
+                </div>
+                <div class="contentbox3">
+                    <img src="..\assets\logo-cow.png" class="imageAbout">
+                </div>
             </div>
         </div>
 </template>
 
 <script>
 import articles from '../assets/articles.json';
+
 
 export default{
     data() {
@@ -50,8 +51,8 @@ export default{
 .contentbox {
     display: flex;
     flex-direction: column;
-    width: 1030px;
-    height: auto;
+    width: 65%;
+    height: 750px;
     background-color: #eeebdd;
     margin-left: 400px;
     padding-left: 50px;
@@ -64,9 +65,6 @@ export default{
     width: 450px;
     height: auto;
     margin: 30px;
-    /* flex-direction: column;
-    
-    margin-right: 50px; */
 }
 .contentbox3{
     width: 400px;
@@ -95,7 +93,7 @@ export default{
 .headerAbout {
     margin-top: 40px;
     margin-bottom: 20px;
-    padding-right: 480px;
+    padding-right: 450px;
     font-size: xx-large;
     
 }
@@ -112,7 +110,7 @@ export default{
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    padding: 15px;
+    padding: 21px;
 }
 
 
