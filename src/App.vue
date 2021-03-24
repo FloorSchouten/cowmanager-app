@@ -1,8 +1,8 @@
 <template>
   <TopNavbar /><SideNavbar/>
   <Home />
-  <SideNavbar/><About />
-  <SideNavbar /><Contact />
+  <About />
+  <Contact />
 </template>
 
 <script>
@@ -39,17 +39,6 @@ export default {
 
   
 }
-.Contentbox {
-    display: flex;
-    flex-direction: column;
-    width: 1040px;
-    height: auto;
-    background-color: #eeebdd;
-    margin: 10px 100px;
-    padding-left: 50px;
-    padding-left: 50px;
-    box-shadow: 2px 3px 3px 3px red;
-    border-radius: 25px; 
-}
+
 
 </style>

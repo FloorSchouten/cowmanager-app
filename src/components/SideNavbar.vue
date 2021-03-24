@@ -10,7 +10,7 @@
             </div>
             <br>
             <div>
-                <div><button class="navbutton"><a href="./Contact.vue"><i class="fas fa-phone" />&nbsp;Contact</a></button></div>
+                <div><button class="navbutton" ><a href="./Contact.vue"><i class="fas fa-phone" />&nbsp;Contact</a></button></div>
             </div>   
         </div>
 
@@ -37,7 +37,9 @@
 
 export default {
     name: 'SideNavbar'
-}
+
+  }
+
 </script>
 
 <style>

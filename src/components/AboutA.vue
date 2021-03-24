@@ -1,6 +1,6 @@
 <template>
-    <div class="contentbox">
-        <SideNavBar />
+    <div class="aboutContentbox">
+        <!-- <SideNavBar /> -->
             <div class="headerAbout" id="#About">
                 <h1>About us</h1>
             </div>
@@ -40,7 +40,7 @@ export default{
 </script>
 
 <style scoped>
-/* <i class="fas fa-hat-cowboy-side"> */
+
 .articleAbout {
     display: flex;
     flex-direction: column;
@@ -48,13 +48,14 @@ export default{
     margin-top: 10px;
     text-align: left;
 }
-.contentbox {
+.aboutContentbox {
     display: flex;
     flex-direction: column;
     width: 65%;
     height: 750px;
     background-color: #eeebdd;
     margin-left: 400px;
+    margin-top: 1000px;
     padding-left: 50px;
     padding-left: 50px;
     box-shadow: 2px 3px 3px 3px red;

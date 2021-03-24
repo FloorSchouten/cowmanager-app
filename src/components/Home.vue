@@ -21,8 +21,8 @@ export default {
 <style scoped>
 
 .home-right-container {
-  display: flex;
-  flex-direction: row;
+  /* display: flex;
+  flex-direction: row; */
   margin-top: -910px;
   margin-left: 280px;
   

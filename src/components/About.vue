@@ -17,9 +17,9 @@ export default {
 
 <style scoped>
 .about-right-container {
-  display: flex;
-  flex-direction: row;
-  margin-top: -900px;
+  /* display: flex; */
+  /* flex-direction: row; */
+  margin-top: -940px;
   margin-left: -20px;
   
 }
