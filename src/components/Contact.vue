@@ -1,6 +1,6 @@
 <template>
     <div class="contentbox">
-        <form class="contactform"  @submit.prevent="onSubmit">
+        <form class="contactform">
             <div>
                 <h1>Contact us</h1>
             </div>
@@ -19,20 +19,7 @@
             <input class="button" type="submit" value="Submit" @click="goToHome()" >
            
         </form>
-        <!-- data () {
-            name: '',
-            email: '', 
-            message: ''
-        }, 
-        methods: {
-            onSubmit(){
-                let contactform = {
-                    name: this.name, 
-                    email: this.email,
-                    message: this.message
-                }
-            }
-        } -->
+
   </div>  
 </template>
 
@@ -47,9 +34,12 @@ export default {
         if(/^[A-Za-z]+$/.test(char)) return true; 
         else e.preventDefault(); 
         }
-    ,
+    ,            
+    onSubmit(){  
+        event.target.reset();
+        },           
     goToHome(){
-   this.$router.push('/Home'); 
+        this.$router.push('/Home'); 
       }
   }
 }
