@@ -5,7 +5,7 @@
         </div>
         <div class="logout">
             <p>logout</p>
-            <a href="https://cowmanager.netlify.app/Home" target="blank"><img class="power-img" src="..\assets\powerbutton-white.png"></a>
+            <a href="https://cowmanager.netlify.app/Home.vue" target="blank"><img class="power-img" src="..\assets\powerbutton-white.png"></a>
             
         </div>
     </div>
