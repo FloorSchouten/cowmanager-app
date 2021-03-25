@@ -5,7 +5,7 @@
         </div>
         <div class="logout">
             <p>logout</p>
-            <a href="./Home.vue" target="blank"><img class="power-img" src="..\assets\powerbutton-white.png"></a>
+            <a href="https://cowmanager.netlify.app/Home" target="blank"><img class="power-img" src="..\assets\powerbutton-white.png"></a>
             
         </div>
     </div>
@@ -19,7 +19,6 @@ export default {
 </script>
 
 <style>
-/* @import url("https://fonts.googleapis.com/icon?family=Material+Icons"); */
 .logo {
   display: flex;
   width: 200px;
