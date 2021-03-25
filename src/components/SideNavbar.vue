@@ -45,7 +45,7 @@ export default {
 <style>
 .sideNavBar {
     width: 300px;
-    height: 940px;
+    height: 975px;
     background-color: black;
     color: white;
     margin-top: 10px;

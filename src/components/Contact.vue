@@ -62,8 +62,8 @@ export default {
 .contactContentbox {
     display: flex;
     flex-direction: column;
-    width: 68%;
-    height: 600px;
+    width: 69%;
+    height: 610px;
     background-color: #eeebdd;
     margin-left: 380px;
     margin-top: 50px;
@@ -74,12 +74,12 @@ export default {
     border-radius: 25px; 
  }
 .button {
-    
     background-color: red;
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    margin-top: 20px;
+    margin-top: 25px;
+    margin-left: 20px;
 
 }
 .inputfield {

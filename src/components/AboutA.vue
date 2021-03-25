@@ -1,9 +1,8 @@
 <template>
     <div class="aboutContentbox">
-        <!-- <SideNavBar /> -->
-            <div class="headerAbout" id="#About">
-                <h1>About us</h1>
-            </div>
+        <div class="headerAbout" id="#About">
+            <h1>About us</h1>
+        </div>
             <div class="flex">
                 <div class="contentbox4">
                    <div v-for="article in articlesList" v-bind:key="article.id" class="contentbox2">

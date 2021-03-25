@@ -1,8 +1,6 @@
 <template>
   <div>
-    <div class="home-right-container">
       <Homecontent />
-    </div>
   </div>
 </template>
 
@@ -20,11 +18,5 @@ export default {
 
 <style scoped>
 
-.home-right-container {
-  /* display: flex;
-  flex-direction: row; */
-  margin-top: -910px;
-  margin-left: 280px;
-  
-}
+
 </style>

@@ -49,12 +49,13 @@ export default {
     width: 1040px;
     height: auto;
     background-color: #eeebdd;
-    margin: 10px 100px;
-    
+    /* margin: 10px 100px; */
     padding-left: 50px;
     padding-left: 50px;
     box-shadow: 2px 3px 3px 3px red;
     border-radius: 25px; 
+    margin-top: -970px;
+    margin-left: 380px;
 }
 .item {
     width: 65%;
