@@ -25,7 +25,7 @@
         </form>
 
                 <div class="contentbox3">
-                    <img src="..\assets\logo-cow.png" class="imageAbout">
+                    <img src="..\assets\logo-cow.png" class="imageBelow">
                     <p>Gerverscop 9, 3481 LT Harmelen</p>
                     <p> tel. 0348 443 840</p>
                 </div>
@@ -74,6 +74,7 @@ export default {
     width: 80px;
     height: 80px;
     border-radius: 50%;
+    margin-top: 20px;
 }
 .textbox {
     width: 500px;
@@ -89,8 +90,8 @@ export default {
     margin: 30px;
 }
 .contentbox3{
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     padding-left: 200px;
 }
 .contentbox4 {
@@ -119,10 +120,10 @@ export default {
     font-size: xx-large;
     
 }
-.imageAbout {
-    width: 450px;
-    height: 350px;
-    margin-left: -20px;
+.imageBelow {
+    width: 250px;
+    height: 200px;
+    /* margin-left: -20px; */
     margin-top: 50px;
 }
 </style>
