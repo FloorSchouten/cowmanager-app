@@ -11,7 +11,6 @@ You can see it in action at https://cowmanager.netlify.app/
 # Getting Started
 First, run the development server:
 
-npm run dev
-# or
-yarn dev
+npm install
+yarn serve
 Open http://localhost:8080 with your browser to see the result.
