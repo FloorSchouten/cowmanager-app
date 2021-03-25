@@ -7,17 +7,17 @@ const routerHistory = createWebHistory();
 
 const routes = [
     {
-        path: '/home',
+        path: '/Home',
         name: 'home',
         component: Home
     },
     {
-        path: '/about',
+        path: '/About',
         name: 'about',
         component: About
     },
     {
-        path: '/contact',
+        path: '/Contact',
         name: 'contact',
         component: Contact
     }

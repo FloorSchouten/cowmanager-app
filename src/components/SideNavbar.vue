@@ -16,16 +16,16 @@
 
         <div class="sideNavBarB">
             <div>
-                <div><a href="www.google.com"><i class="fab fa-google"></i></a></div>
+                <div><a href="www.google.com" target="blank"><i class="fab fa-google"></i></a></div>
             </div> 
             
             <div>
-                <div><a href="www.facebook.com"><i class="fab fa-facebook"></i></a></div>
+                <div><a href="www.facebook.com" target="blank"><i class="fab fa-facebook"></i></a></div>
             </div>
 
                 
             <div>
-                <div><a href="www.twitter.com"><i class="fab fa-twitter"></i></a></div>
+                <div><a href="www.twitter.com" target="blank"><i class="fab fa-twitter"></i></a></div>
             </div>
         </div>
  </div>
