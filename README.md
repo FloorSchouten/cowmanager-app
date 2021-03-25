@@ -1,36 +1,17 @@
 # cowmanager-app
+I made this app as my first Vue.js project. Its three pages contain navigation, static and dynamic content and a contact form. It uses fontawesome icons that link to external urls.
 
-## First time users!
-```
-yarn install
-```
+### Demo
+You can see it in action at https://cowmanager.netlify.app/
 
-### Run in the browser by executing the following in the terminal:
-```
-yarn serve
-```
 
-### Getting ready for production...
-```
-yarn build
-```
-
-### Find your mistakes!
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-Demo
-You can see it in action 
-Built with
+# Built with
  Vue.js
 
-Getting Started
+# Getting Started
 First, run the development server:
 
 npm run dev
 # or
 yarn dev
-Open http://localhost:3000 with your browser to see the result.
+Open http://localhost:8080 with your browser to see the result.
