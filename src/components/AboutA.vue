@@ -51,7 +51,7 @@ export default{
 .aboutContentbox {
     display: flex;
     flex-direction: column;
-    width: 65%;
+    width: 68%;
     height: 750px;
     background-color: #eeebdd;
     margin-left: 400px;

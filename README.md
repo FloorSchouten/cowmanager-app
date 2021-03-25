@@ -22,3 +22,15 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+Demo
+You can see it in action 
+Built with
+ Vue.js
+
+Getting Started
+First, run the development server:
+
+npm run dev
+# or
+yarn dev
+Open http://localhost:3000 with your browser to see the result.

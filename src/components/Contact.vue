@@ -6,31 +6,34 @@
             </div>
             
             <div class="textbox">
-                <div>
-                    <label for="name">Your name: </label>&nbsp;
+                <div class="inputfield">
+                    <label class="label" for="name">Your name: </label>&nbsp;
                     <input id="name" v-model="name" v-on:keypress="isLetter($event)" placeholder="Full name">
                 </div>
-                <div>
-                    <label for="email">Email: </label>&nbsp;
+                <div class="inputfield">
+                    <label class="label" for="email">Email: </label>&nbsp;
                     <input id="email" v-model="email" placeholder="Email">
                 </div>
-                <div>
-                    <label for="message">Your message: </label>&nbsp;
-                    <input id="message"  :maxlength="500" v-model="message" placeholder="Tell us what's on your mind">
+                <div class="inputfield">
+                    <label class="label" for="message">Your message: </label>&nbsp;
+                    <input class="messagebox" id="message" :maxlength="500" v-model="message" placeholder="Tell us what's on your mind">
                 </div> 
-            </div>
                 <input class="button" type="submit" value="Submit" @click="goToHome()" >
+            </div>
+                
            
            
         </form>
 
-                <div class="contentbox3">
-                    <img src="..\assets\logo-cow.png" class="imageBelow">
+                
+    </div>
+ <div class="contentboxfooter">
+                    <!-- <img src="..\assets\logo-cow.png" class="imageBelow"> -->
+                    <p>Cowmanager</p>
                     <p>Gerverscop 9, 3481 LT Harmelen</p>
-                    <p> tel. 0348 443 840</p>
+                    <p>tel. 0348 443 840</p>
+                    <p><a href="www.cowmanager.nl" > www.cowmanager.nl</a></p>
                 </div>
-            </div>
- 
 </template>
 
 <script>
@@ -59,47 +62,65 @@ export default {
 .contactContentbox {
     display: flex;
     flex-direction: column;
-    width: 65%;
-    height: 350px;
+    width: 68%;
+    height: 600px;
     background-color: #eeebdd;
     margin-left: 380px;
     margin-top: 50px;
+    margin-bottom: 80px;
     padding-left: 50px;
     padding-left: 50px;
     box-shadow: 2px 3px 3px 3px red;
     border-radius: 25px; 
  }
 .button {
+    
     background-color: red;
     width: 80px;
     height: 80px;
     border-radius: 50%;
     margin-top: 20px;
+
+}
+.inputfield {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: left;
+}
+.label {
+    margin-bottom: -20px;
 }
 .textbox {
     width: 500px;
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: flex-end;
 }
-.contentbox2{
+/* .contentbox2{
     
     width: 450px;
     height: auto;
     margin: 30px;
 }
-.contentbox3{
-    width: 500px;
-    height: 500px;
-    padding-left: 200px;
-}
+
 .contentbox4 {
-    /* display: flex;
-    flex-direction: column; */
+    display: flex;
+    flex-direction: column;
     width: 400px;
     height: 400px;
     margin-bottom: 50px;
+} */
+.contentboxfooter{
+    width: 65%;
+    height: 200px;
+    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
 }
 .flex {
     width: 900px;
@@ -118,12 +139,11 @@ export default {
     margin-bottom: 20px;
     padding-right: 450px;
     font-size: xx-large;
-    
 }
-.imageBelow {
-    width: 250px;
-    height: 200px;
-    /* margin-left: -20px; */
-    margin-top: 50px;
+
+.messagebox {
+    display: flex;
+    width: 480px;
+    height: 100px;
 }
 </style>
