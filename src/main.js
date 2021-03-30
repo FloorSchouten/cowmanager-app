@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'animate.css/animate.css'
 import { faHome, faHands,faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faFacebook, faTwitter, faGoogle} from '@fortawesome/free-brands-svg-icons'
-import router from './assets/js/routes'
+import router from './router'
 // import VueRouter from 'vue-router';
 
 library.add(faHome, faPhone, faHands)
